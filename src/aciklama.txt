@@ -1,0 +1,18 @@
+Life Cycle Methods (Yaşam Döngüleri)
+
+Mounting : Bir component oluştuğunda ve DOM'a eklendiğinde
+
+" constructor, static getDerivedStateFromProps, render, componentDidMount "
+
+Updating : Bir component props ve state lerdeki değişikliklerden ötürü tekrar render edildiğinde
+
+" static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotbeforeUpdate,
+componentDidUpdate "
+
+Unmounting : Bir component DOM' dan çıktğında
+
+" componentWillUnmount "
+
+Error Handling : Render işleminde hata olduğunda
+
+" static getDerivedStateFromError, componentDidCatch "
