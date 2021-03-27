@@ -1,12 +1,12 @@
 import './App.css';
-import Sayac from './Components/Sayac';
+import Timer from './Components/Timer';
 
 
 
 function App() {
   return (
     <div className="App">
-     <Sayac/>
+    <Timer/>
     </div>
   );
 }
